@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    box-shadow: #cccccc;
+    
+    
+}
+
+div.form {
+    display: block;
+    text-align: center;
+    
+}
+
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    box-shadow: #cccccc;
+    background-color:#6abadeba;
+    text-shadow: #cccccc;
+}
+
+.container {
+    background-color: rgb(64, 71, 0);
+    padding: 5px 20px 15px 20px;
+    border:none;
+    border-radius: 6px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgb(160, 135, 184),#ffff);
+    
+}
+
+
+input[type="text"]
+
+input[type="password"]
+select,
+textarea {
+    width: 100%;
+    padding: 20px;
+    border: 10px solid #181414;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+#username{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+input[type="submit"]{
+    background-color:steelblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    height: 50%;
+}
+
+input[type="submit"]:hover{
+    background-color:lightseagreen;
+}
+
+@media all and (min-width:300px) and (max-width:700px) {
+    .container {
+        width: 100%;
+        height:80%
+    }
+}
